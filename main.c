@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int l=0,g=0,i=0,e=0;
+    int x=0,g=0,i=0,e=0;
     printf("Entrez une largeur :\n");
-    scanf("%d",&l);
-    for(l;l!=0;l--)
+    scanf("%d",&x);
+    for(e=0;i<1;e++)
     {
-        printf(" ");
-        for(i=1;i!=l;(i*2)+1)
+        for(i=x;i>=0;i--)
+        {
+            printf(" ");
+        }
+        for(g=1;g<=x;(g*2)+1)
         {
             printf("*");
         }
+
+        printf("\n");
     }
-    printf("\n");
     return 0;
 }
 
